@@ -130,7 +130,7 @@ When we trained agents at fixed dirtiness levels and tested them across 0–100%
 ## Repository Contents
 
 ```
-RL_Roomba/
+RL_RoboVac/
 ├── roomba.ipynb      # Environment, map generator, and tabular Q-learning agent
 ├── docs/
 │   ├── robovac_problem_parker_desully_2024.pdf   # Full paper
@@ -150,8 +150,8 @@ The notebook contains three main pieces:
 ### Getting started
 
 ```bash
-git clone https://github.com/cdesully/RL_Roomba.git
-cd RL_Roomba
+git clone https://github.com/cdesully/RL_RoboVac.git
+cd RL_RoboVac
 pip install numpy pandas tqdm jupyter
 jupyter notebook roomba.ipynb
 ```
@@ -177,7 +177,7 @@ Python 3.11 or later is required, because the notebook uses starred-expression i
   title  = {The Robovac Problem},
   year   = {2024},
   institution = {Johns Hopkins University, Whiting School of Engineering},
-  url    = {https://github.com/cdesully/RL_Roomba}
+  url    = {https://github.com/cdesully/RL_RoboVac}
 }
 ```
 
